@@ -20,14 +20,14 @@ body {
 h1 {
     font-size: 3rem;
     font-weight: 800;
-    padding: 1rem 0;
+    padding-top: 2rem;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 800;
     line-height: 4rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 h3 {
@@ -53,7 +53,7 @@ p {
 /* BUTTON */
 .btn {
     width: 100%;
-    margin: 1rem 1rem;
+    margin: 1rem 0;
     text-align: left;
     border: 1px dashed #0055DD;
     color: #0055DD;
@@ -125,6 +125,7 @@ img {
 
 /* NAVBAR-NAVIGATION */
 .navbar-navigation {
+    display: none;
     background-color: white;
     border-bottom: 2px dashed #0055DD;
 }
@@ -144,10 +145,12 @@ img {
     color: black;
 }
 
+/* BIG SCREEN */
 @media (min-width: 576px) {
 
-    /* BIG SCREEN */
+    /* NAVBAR-NAVIGATION */
     .navbar-navigation {
+        display: flex;
         min-height: 100vh;
         width: var(--sidbar-width);
         background: white;
