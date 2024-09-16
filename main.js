@@ -26,7 +26,7 @@ AOS.init({
 
 document.addEventListener('DOMContentLoaded', function() {
     // Scroll to the top of the page when it loads
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
 
     // Remove the URL hash without reloading the page
     if (window.location.hash) {
